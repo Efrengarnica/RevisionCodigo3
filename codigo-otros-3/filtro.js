@@ -12,8 +12,7 @@ const productos = [  //Se corrigió el tipo para que apareciera Zapato en vez de
 // Corregido: Seleccionar el primer elemento con el nombre "lista-de-productos"
 //Recordar que es getElementById ya que lista-de-producto es un id
 const li = document.getElementById("lista-de-productos");
-
-const $i = document.querySelector('.input'); //Se agrego la clase al boton llamada input en HTML
+const $i = document.querySelector('.input');        //Se agrego la clase al boton llamada input en HTML
 
 
 for (let i = 0; i < productos.length; i++) {
