@@ -1,11 +1,11 @@
 // Tenemos un li de productos
 
 const productos = [  //Se corrigió el tipo para que apareciera Zapato en vez de zapato y también con Bota en vez de bota
-  {nombre: "Zapato negro", tipo: "Zapato", color: "negro", img: "./taco-negro.jpg"},
-  {nombre: "Zapato azul", tipo: "Zapato", color: "azul", img: "./taco-azul.jpg"},
-  {nombre: "Bota negra", tipo: "Bota", color: "negro", img: "./bota-negra.jpg"},
-  {nombre: "Bota azul", tipo: "Bota", color: "azul", img: "./bota-azul.jpg"},
-  {nombre: "Zapato rojo", tipo: "Zapato", color: "rojo", img: "./zapato-rojo.jpg"}
+  {nombre: "Zapato negro", tipo: "Zapato", color: "negro", img: "./codigo-otros-3/taco-negro.jpg"},
+  {nombre: "Zapato azul", tipo: "Zapato", color: "azul", img: "./codigo-otros-3/taco-azul.jpg"},
+  {nombre: "Bota negra", tipo: "Bota", color: "negro", img: "./codigo-otros-3/bota-negra.jpg"},
+  {nombre: "Bota azul", tipo: "Bota", color: "azul", img: "./codigo-otros-3/bota-azul.jpg"},
+  {nombre: "Zapato rojo", tipo: "Zapato", color: "rojo", img: "./codigo-otros-3/zapato-rojo.jpg"}
 ]
 
 //const li = document.getElementsByName("lista-de-productos")
@@ -39,6 +39,7 @@ botonDeFiltro.onclick = function() {
   while (li.firstChild) {
     li.removeChild(li.firstChild);
   }
+  
 
   const texto = $i.value;
   console.log(texto);
